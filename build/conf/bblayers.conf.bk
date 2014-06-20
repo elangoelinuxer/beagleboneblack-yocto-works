@@ -1,0 +1,24 @@
+# LAYER_CONF_VERSION is increased each time build/conf/bblayers.conf
+# changes incompatibly
+LCONF_VERSION = "6"
+
+BBPATH = "${TOPDIR}"
+BBFILES ?= ""
+
+#BBLAYERS ?= " \
+#  /home/elango/hd_elinux/poky-dora-10.0.0/meta \
+# /home/elango/hd_elinux/poky-dora-10.0.0/meta-yocto \
+# /home/elango/hd_elinux/poky-dora-10.0.0/meta-yocto-bsp \
+# /home/elango/hd_elinux/poky-dora-10.0.0/meta-ti \
+#  "
+BBLAYERS_NON_REMOVABLE ?= " \
+ /home/elango/hd_elinux/poky-dora-10.0.0/meta \
+ /home/elango/hd_elinux/poky-dora-10.0.0/meta-yocto \
+  "
+
+#added by hob
+BBLAYERS = "/home/elango/hd_elinux/poky-dora-10.0.0/meta /home/elango/hd_elinux/poky-dora-10.0.0/meta-yocto /home/elango/hd_elinux/poky-dora-10.0.0/meta-yocto-bsp /home/elango/hd_elinux/poky-dora-10.0.0/meta-ti /home/elango/hd_elinux/poky-dora-10.0.0/meta-oe/meta-oe /home/elango/hd_elinux/poky-dora-10.0.0/meta-hob"
+	/home/elango/hd_elinux/poky-dora-10.0.0/meta-yocto \
+	/home/elango/hd_elinux/poky-dora-10.0.0/meta-yocto-bsp \
+	/home/elango/hd_elinux/poky-dora-10.0.0/meta-ti \
+	/home/elango/hd_elinux/poky-dora-10.0.0/meta-oe/meta-oe"

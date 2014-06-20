@@ -1,0 +1,3 @@
+SANITY_VERSION 1
+TMPDIR /home/elango/hd_elinux/poky-dora-10.0.0/build/tmp
+SSTATE_DIR /home/elango/hd_elinux/poky-dora-10.0.0/build/sstate-cache
